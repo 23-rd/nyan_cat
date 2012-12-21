@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html>
+<html lang="ru" >
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="user-scalable=no, width=device-width" />
+    <title>Nyan Cat</title>
+
+
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+</head>
+<body>
+<audio id="backMusic" autoplay="true" preload="auto">
+    <source src="media/main_theme.mp3">
+    <source src="media/main_theme.ogg">
+</audio>
+<audio id="getstar" autoplay="true" preload="auto">
+    <source src="media/getcoin.mp3">
+    <source src="media/getstar.ogg">
+</audio>
+<audio id="over" autoplay="true" preload="auto">
+    <source src="media/over.mp3">
+    <source src="media/over.ogg">
+</audio>
+<audio id="getbone" autoplay="true" preload="auto">
+    <source src="media/getbone.mp3">
+    <source src="media/getbone.ogg">
+</audio>
+<canvas id="scene" class="canv" width="800" height="480"></canvas>
+<section id="btnPause"> <img src="images/pause.png" width="64" height="64" id="imgSize"></section>
+<section id="wrapper" class="wrap">
+    <article id="menu" class="menust">
+        <ul>
+            <li id="start">Начать</li>
+            <li id="quit">Выйти</li>
+            <li id="rec">Рекорды</li>
+        </ul>
+    </article>
+    <article id="results" class="menust">
+        <input type="text" id="name" placeholder="Введите имя..."><br>
+        <label id="pointsCount"></label><br>
+        <a id="done">OK</a>
+    </article>
+</section>
+<div id="tblRec" class="divRec">
+    <table id="recTable" class="tableRec">
+    </table>
+    <a id="back">Назад</a>
+</div>
+<script type="text/javascript" src="js/jquery-1.8.2.min.js"></script>
+<script type="text/javascript" src="js/jquery.mobile-1.2.0.min.js"></script>
+<!--[if lt IE 9]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<script type="text/javascript" src="js/script.js"></script>
+
+</body>
+</html>

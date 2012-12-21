@@ -1,0 +1,136 @@
+*
+{
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.divRec
+{
+    display: none;
+    position: absolute;
+    margin-left: 65%;
+    margin-top: 20%;
+    overflow: auto;
+    height: 90%;
+    width: 33%;
+    z-index: 1001;
+}
+.divRec td
+{
+    font-family: Calibri;
+    font-size: 200%;
+    text-align: center;
+    color: white;
+    border: 0.3em inset white;
+}
+.tableRec
+{
+    width: 100%;
+    border: 0.3em inset white;
+    position: relative;
+}
+.menust
+{
+    margin-top: 60%;
+    margin-left: 70%;
+    margin-right: 10%;
+    position: absolute;
+}
+#results.menust
+{
+    display: none;
+}
+.menust ul
+{
+    padding: 0px;
+    margin: 0px;
+}
+#pointsCount
+{
+    font-family: Calibri;
+    font-size: 200%;
+    font-weight: bold;
+}
+
+#back
+{
+    cursor: pointer;
+    position: absolute;
+    background-color: transparent;
+    -moz-border-radius: 20%;
+    -webkit-border-radius: 20%;
+    border-radius: 20%;
+    border: 0.2em solid white;
+    display: inline-block;
+    color: white;
+    font-family: Calibri;
+    font-size: 200%;
+    font-weight: bold;
+    padding: 0% 10%;
+    margin-bottom: 10%;
+    margin-right: 20%;
+    text-decoration: none;
+    text-shadow: 0px 0px 0px white;
+}
+
+.menust ul li, a#done, #back
+{
+    cursor: pointer;
+    position: relative;
+    background-color: transparent;
+    -moz-border-radius: 20%;
+    -webkit-border-radius: 20%;
+    border-radius: 20%;
+    border: 0.2em solid white;
+    display: inline-block;
+    color: white;
+    font-family: Calibri;
+    font-size: 200%;
+    font-weight: bold;
+    padding: 0% 10%;
+    margin: 5% 0 5% 0;
+    text-decoration: none;
+    text-shadow: 0px 0px 0px white;
+}
+#name
+{
+    width: 100%;
+    font-size: 190%;
+    -moz-user-select: -moz-none;
+    -khtml-user-select: auto;
+    -webkit-user-select: auto;
+    -ms-user-select: auto;
+    user-select: auto;
+}
+#pointsCount
+{
+    color: white;
+    font-family: Calibri;
+    font-size: 190%;
+    font-weight: bold;
+}
+.menust li:hover {
+    cursor:pointer;
+}
+.wrap
+{
+    text-align: center;
+    position: absolute;
+    /*background-color: #696969;*/
+    background: url("../images/MainMenu.png") no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    display: none;
+    z-index: 999;
+}
+.canv
+{
+    position: absolute;
+    visibility: hidden;
+    z-index: 1;
+}
